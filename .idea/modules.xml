@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Barcode-Reader.iml" filepath="$PROJECT_DIR$/.idea/modules/Barcode-Reader.iml" group="Barcode-Reader" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/barcode-reader/Barcode-Reader-barcode-reader.iml" filepath="$PROJECT_DIR$/.idea/modules/barcode-reader/Barcode-Reader-barcode-reader.iml" group="Barcode-Reader/barcode-reader" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/example/Barcode-Reader-example.iml" filepath="$PROJECT_DIR$/.idea/modules/example/Barcode-Reader-example.iml" group="Barcode-Reader/example" />
+      <module fileurl="file://$PROJECT_DIR$/BarcodeReader.iml" filepath="$PROJECT_DIR$/BarcodeReader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/barcode-reader/barcode-reader.iml" filepath="$PROJECT_DIR$/barcode-reader/barcode-reader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/example/example.iml" filepath="$PROJECT_DIR$/example/example.iml" />
+    </modules>
+  </component>
+</project>

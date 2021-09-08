@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="info.androidhive.barcodereader.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_register_item"
+        android:name="info.androidhive.barcodereader.ui.registerItem.RegisterItemFragment"
+        android:label="@string/menu_register"
+        tools:layout="@layout/fragment_register_item" />
+
+    <fragment
+        android:id="@+id/nav_products"
+        android:name="info.androidhive.barcodereader.ProductsFragment"
+        android:label="@string/menu_products"
+        tools:layout="@layout/fragment_products" />
+
+    <fragment
+        android:id="@+id/nav_sales"
+        android:name="info.androidhive.barcodereader.ui.sales.SalesFragment"
+        android:label="@string/menu_sales"
+        tools:layout="@layout/fragment_sales" />
+</navigation>

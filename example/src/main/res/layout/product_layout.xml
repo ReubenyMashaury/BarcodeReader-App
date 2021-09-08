@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="15dp"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:paddingBottom="15dp"
+        android:id="@+id/const_itemLayout">
+
+        <TextView
+            android:id="@+id/sn"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            android:text="SN"
+            app:layout_constraintStart_toStartOf="parent"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:id="@+id/product_name"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            android:text="Product name"
+            app:layout_constraintEnd_toStartOf="@+id/quantity"
+            app:layout_constraintStart_toEndOf="@+id/sn"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:id="@+id/quantity"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="Quantity"
+            android:textAlignment="textEnd"
+            app:layout_constraintStart_toEndOf="@+id/product_name"
+            app:layout_constraintEnd_toStartOf="@+id/barcode"
+            android:textColor="@android:color/black"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <TextView
+            android:id="@+id/barcode"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textAlignment="textEnd"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:textColor="@android:color/black"
+            android:text="Barcode"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</RelativeLayout>
